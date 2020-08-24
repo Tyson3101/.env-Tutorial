@@ -28,14 +28,14 @@ YOUTUBEAPIKEY=put-api-key-here
 
 ##### Now when you log into the bot copy this code into it;
 ```javascript 
-  const Discord = require('discord.js') \\ Requires Discord.Js module
-  require('dotenv') \\ Requires the dotenv module for reading .env files
+  const Discord = require('discord.js')      \\ Requires Discord.Js module
+  require('dotenv')                           \\ Requires the dotenv module for reading .env files
   const youtubeAPI = process.env.YOUTUBEAPIKEY \\ Access the .env file and gets the value of YOUTUBEAPIKEY
-  const prefix = process.env.PREFIX \\ Access the .env file and gets the value of PREFIX
+  const prefix = process.env.PREFIX             \\ Access the .env file and gets the value of PREFIX
 
 
 
-  client.login(process.env.TOKEN)\\ Access the .env file and gets the value of TOKEN
+  client.login(process.env.TOKEN)               \\ Access the .env file and gets the value of TOKEN
 ```
 
 ###### Note* When accesing a values from .env, Add `proces.env` in front of it.
