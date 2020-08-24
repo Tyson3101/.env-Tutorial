@@ -1,1 +1,5 @@
-<h1> Hey <h1>
+# Protecting Token
+
+```javascript
+  requrie('env').config()
+```
