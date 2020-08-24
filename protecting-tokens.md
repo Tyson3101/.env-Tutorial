@@ -4,8 +4,8 @@
 
 ## Installation
 
-#### To be able to use and read from .env files, You will need to install the `dotenv` node module:
-##### To install it you wil need to open the console and run,
+#### To be able to use and read from .env files, You will need to install the `dotenv` node module.
+##### To install it you wil need to open the console and run:
 
 ```npm install --save dotenv```
 
@@ -41,7 +41,7 @@ YOUTUBEAPIKEY=put-api-key-here
   client.login(process.env.TOKEN) // Logs into the bot and accesses the .env file and gets the value of TOKEN
 ```
 
-###### Note* When accesing a values from .env, Add `proces.env` in front of it with the name that contains the value.
+###### Note* When accesing a values from .env, Add `process.env` in front of it with the name that contains the value.
 
 ## Using .gitignore to ignore the .env file when uploading to github, etc.
 ###### Note* If your hosting providers requires github, most hosting providers have .env file implementation
