@@ -18,7 +18,7 @@
 
 ##### Now in the `.env` file and add this code below;
 ```DISCORD_TOKEN=PUT-TOKEN-HERE```
-####### Note* The values of .env files aren't strings
+###### Note* The values of .env files aren't strings
 
 ## Reading from it
 
@@ -27,6 +27,6 @@
   client.login(process.env.DISCORD_TOKEN)
 ```
 
-####### Note* When accesing a value from .env, Add `proces.env` in front of it.
+###### Note* When accesing a value from .env, Add `proces.env` in front of it.
 
 
