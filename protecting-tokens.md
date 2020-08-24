@@ -31,8 +31,8 @@ YOUTUBEAPIKEY=put-api-key-here
   const Discord = require('discord.js') // Requires Discord.Js module
   const client = new Discord.Client() // Creates a new Client Instance
   require('dotenv') // Requires the dotenv module for reading .env files
-  const youtubeAPI = process.env.YOUTUBEAPIKEY // Access the .env file and gets the value of YOUTUBEAPIKEY
-  const prefix = process.env.PREFIX // Access the .env file and gets the value of PREFIX 
+  const youtubeAPI = process.env.YOUTUBEAPIKEY // Defines youtubeAPI with the value of YOUTUBEAPIKEY from the .env file
+  const prefix = process.env.PREFIX // Defines prefix with the value of PREFIX from the .env file
 
   client.login(process.env.TOKEN) // Logs into the bot and accesses the .env file and gets the value of TOKEN
 ```
