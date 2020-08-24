@@ -11,7 +11,7 @@
 
 ## Setup
 
-##### First step is to create a file and name it `.env` and then require the dotenv node module
+##### First step is to create a file and name it `.env` and then require the dotenv node module in your main file:
 ```javascript
   requrie('dotenv')
 ```
@@ -26,7 +26,7 @@ YOUTUBEAPIKEY=put-api-key-here
 
 ## Accesing Values from .env files
 
-##### Now when you log into the bot copy this code into it:
+##### Now in the main file of your bot add this code into it:
 ```javascript 
   const Discord = require('discord.js') // Requires Discord.Js module
   
