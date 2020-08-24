@@ -1,4 +1,4 @@
-# Enviroment Varibles
+# Enviroment Variables
 
 ### This is similar to configuartion files, but hides it when sharing to github/hosting providers.
 
@@ -16,7 +16,7 @@
   requrie('dotenv')
 ```
 
-##### Now in the `.env` file and add this code below;
+##### Now in the `.env` file and add this code below:
 ```
 TOKEN=Put-token-here
 PREFIX=!
@@ -26,7 +26,7 @@ YOUTUBEAPIKEY=put-api-key-here
 
 ## Accesing Values from .env files
 
-##### Now when you log into the bot copy this code into it;
+##### Now when you log into the bot copy this code into it:
 ```javascript 
   const Discord = require('discord.js') // Requires Discord.Js module
   const client = new Discord.Client() // Creates a new Client Instance
@@ -37,6 +37,13 @@ YOUTUBEAPIKEY=put-api-key-here
   client.login(process.env.TOKEN) // Logs into the bot and accesses the .env file and gets the value of TOKEN
 ```
 
-###### Note* When accesing a values from .env, Add `proces.env` in front of it.
+###### Note* When accesing a values from .env, Add `proces.env` in front of it with the name that contains the value.
 
+## Using .gitignore to ignore the .env file when uploading to github, etc.
+###### Note* If your hosting providers requires github, most hosting providers have .env file implementation
+
+##### Create a gitignore file and call it .gitignore and add this code into it:
+```.env```
+
+###### Note* When ignoring files, put the name in the .ignore file
 
