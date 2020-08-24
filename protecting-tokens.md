@@ -45,6 +45,7 @@ YOUTUBEAPIKEY=put-api-key-here
 
 ## Using .gitignore to ignore the .env file when uploading to github, etc.
 ###### Note* If your hosting providers requires github, most hosting providers have .env file implementation
+###### Note* A .gitignore file is for use of github only
 
 ##### Create a file and call it `.gitignore` and add this code into it:
 #### `.env` This ignores the .env file when commiting to github
