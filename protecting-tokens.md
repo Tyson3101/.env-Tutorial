@@ -32,9 +32,9 @@ YOUTUBEAPIKEY=put-api-key-here
   const client = new Discord.Client() // Creates a new Client Instance
   require('dotenv') // Requires the dotenv module for reading .env files
   const youtubeAPI = process.env.YOUTUBEAPIKEY // Access the .env file and gets the value of YOUTUBEAPIKEY
-  const prefix = process.env.PREFIX //Access the .env file and gets the value of PREFIX
+  const prefix = process.env.PREFIX // Access the .env file and gets the value of PREFIX 
 
-  client.login(process.env.TOKEN) // Access the .env file and gets the value of TOKEN
+  client.login(process.env.TOKEN) // Logs into the bot and accesses the .env file and gets the value of TOKEN
 ```
 
 ###### Note* When accesing a values from .env, Add `proces.env` in front of it.
