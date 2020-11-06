@@ -13,9 +13,9 @@
 
 ##### First step is to create a file and name it `.env` and then require the dotenv node module in your main file:
 ```javascript
-  requrie('dotenv')
+  requrie('dotenv').config()
 ```
-
+ 
 ##### Now in the `.env` file and add this code below:
 ```
 TOKEN=Put-token-here
@@ -32,7 +32,7 @@ YOUTUBEAPIKEY=put-api-key-here
   
   const client = new Discord.Client() // Creates a new Client instance
   
-  require('dotenv') // Requires the Dotenv module for reading .env files
+  require('dotenv').config() // Requires the Dotenv module and calls the config method for reading .env files
   
   const youtubeAPI = process.env.YOUTUBEAPIKEY // Defines youtubeAPI with the value of YOUTUBEAPIKEY from the .env file
   
