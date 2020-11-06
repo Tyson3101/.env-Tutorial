@@ -49,7 +49,7 @@ YOUTUBEAPIKEY=put-api-key-here
 
 ##### Create a file and call it `.gitignore` and add this code into it:
 #### `.env` This ignores the .env file when commiting to github
-#### `node_modules`  This is optinal and this ignores the node_module folder when commiting to github
+#### `node_modules`  This is recommended as this ignores the node_module folder when commiting to github
 
 ###### Note* When ignoring files/folders, put the name in the .gitignore file
 
